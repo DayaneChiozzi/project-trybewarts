@@ -1,6 +1,6 @@
 const userEmail = document.getElementById('email');
 const userPassword = document.getElementById('password');
-const submitBtn = document.getElementById('submit-btn');
+const submitBtn = document.getElementById('submit-btn1');
 
 function checkInfo() {
   if (
