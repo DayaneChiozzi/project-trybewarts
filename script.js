@@ -21,8 +21,7 @@ const submitBtn2 = document.getElementById('submit-btn');
 function checkAgreement() {
   if (checkbox.checked === true) {
     submitBtn2.disabled = false;
-  }
-  else {
+  } else {
     submitBtn2.disabled = true;
   }
 }

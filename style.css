@@ -20,6 +20,7 @@ header h1 {
 
 main {
   display: flex;
+  background-color: #e6e4e4;
 }
 
 #evaluation-form {
@@ -41,8 +42,8 @@ main {
 }
 
 footer {
-  background-color:black;
+  background-color: black;
   text-align: center;
   color: white;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
