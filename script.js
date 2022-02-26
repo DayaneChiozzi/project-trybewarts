@@ -14,3 +14,17 @@ function checkInfo() {
 }
 
 submitBtn.addEventListener('click', checkInfo);
+
+const checkbox = document.getElementById('agreement');
+const submitBtn2 = document.getElementById('submit-btn');
+
+function checkAgreement() {
+  if (checkbox.checked === true) {
+    submitBtn2.disabled = false;
+  }
+  else {
+    submitBtn2.disabled = true;
+  }
+}
+
+checkbox.addEventListener('click', checkAgreement);
